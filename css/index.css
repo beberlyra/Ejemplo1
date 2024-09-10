@@ -1,0 +1,53 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 500px ;
+    grid-template-rows: 200px 450px 100px 100px ;
+    grid-template-areas: 
+    'ban ban ban ban  '
+    'enl con con con '
+    'enl con con con'
+    'pie pie pie pie'
+    
+    
+    
+    ;
+
+}
+header{
+    background-color: aqua;
+    grid-area: ban;
+    width: 400px;
+
+}
+
+section{
+    background-color: rgb(138, 231, 216);
+    grid-area: enl;
+}
+aside{
+    background-color: rgb(100, 209, 236);
+    color: rgb(1, 1, 36);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    grid-area: con;
+}
+footer{
+    background-color: aquamarine;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    grid-area: pie;
+}
+img{
+    height: 200px;
+    width: 1100px;
+}
+div{
+    text-align: center;
+}
+iframe{
+    height: 250px;
+    width: 350px;
+}
+
+
